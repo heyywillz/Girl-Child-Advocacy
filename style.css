@@ -203,7 +203,7 @@ header nav {
 .what-we-do .info {
   text-align: center;
   font-size: 0.9rem;
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
   color: var(--clr-main-gray);
 }
@@ -211,8 +211,8 @@ header nav {
 .card {
   background-color: var(--clr-main-purple);
   padding: 2rem;
-  max-width: 350px;
-  max-height: 350px;
+  max-width: 320px;
+  max-height: 320px;
   margin: 2rem 0;
   border-radius: 5px;
 }
@@ -246,7 +246,7 @@ header nav {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 0.4rem;
 }
 
 .about-us {
@@ -757,5 +757,9 @@ footer span {
 
   .status {
     top: 50%;
+  }
+
+  .members-container {
+    margin: 3rem auto 0 auto;
   }
 }
